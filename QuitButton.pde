@@ -1,4 +1,4 @@
-//Global Veriebles
+//Global Variables
 color red = #FF0000;
 color blue = #6BDEFC;
 color regularButton = red;
@@ -9,7 +9,7 @@ void quitButonSetup() {
 }
 
 void quitButtonDraw() {
-  println("Mousex:", mouseX, "\tMouseY:", mouseY);
+  //println("Mousex:", mouseX, "\tMouseY:", mouseY);
   fill(regularButton);
   rect(width*13/16, height*0/16, width*4/16, height*1/16);
   fill(0, 0, 0);
